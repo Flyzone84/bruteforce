@@ -35,7 +35,7 @@ def brute_force_login(url, username, password_file_path):
     print("[*] Brute-force attack finished. No password found.")
 
 if __name__ == "__main__":
-    target_ip = input("Enter Target IP Address (e.g., 103.119.179.101): ").strip()
+    target_ip = input("Enter Target IP Address (e.g., 100.100.100.1000): ").strip()
     port = input("Enter Port (default 80 if unknown): ").strip()
     path = input("Enter Login Path (e.g., /login): ").strip()
     username = input("Enter Username (e.g., admin): ").strip()
