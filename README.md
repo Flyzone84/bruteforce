@@ -18,12 +18,8 @@ This Python script performs a brute-force attack on a web login form by iteratin
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/http-bruteforce-login.git
-   cd http-bruteforce-login
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/Flyzone84/bruteforce.git
+   cd bruteforce
    ```
    Or directly:
    ```bash
@@ -34,10 +30,10 @@ This Python script performs a brute-force attack on a web login form by iteratin
 
 1. Run the script:
    ```bash
-   python brute_force_login.py
-   ```
+   python bruteforce.py
+     ```
 2. When prompted, enter:
-   - **Target IP Address** (e.g., `103.119.179.101`)
+   - **Target IP Address** (e.g., `100.210.180.101`)
    - **Port** (default `80`)
    - **Login Path** (e.g., `/login`)
    - **Username** (e.g., `admin`)
